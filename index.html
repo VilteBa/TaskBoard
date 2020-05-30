@@ -1,0 +1,42 @@
+<!DOCTYTPE html>
+    <html lang="en">
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="maximum-scale=1.0,width=device-width,initial-scale=1.0,user-scalable=0">
+        <link href="css/style.css" rel="stylesheet">
+        <!--dar nera-->
+        <script src="js/app.js" defer></script>
+        <title>Kanban board</title>
+    </header>
+
+    <body>
+        <div id="container">
+            <header>
+                <div id="navbar">
+                    <!-- Burger-Icon -->
+                    <div class="burger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <input id="search" placeholder="Search..." autocomplete="off">
+                    <div id="app-title">
+                        <h1>Kanban Board Demo</h1>
+                    </div>
+                </div>
+            </header>
+
+            <main id="app">
+                <div class='board-wrapper'>
+                    <div id="main-card" class="card">
+                        <div id="add-list-form">
+                            <input class="list-title" type="text" placeholder="Enter card title..." autocomplete="off">
+                            <input class="add-list" type="submit" value="✚">
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+
+    </html>
